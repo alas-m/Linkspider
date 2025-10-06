@@ -65,5 +65,6 @@ pip install requests beautifulsoup4 networkx matplotlib lxml
 2) Run your first crawl:
    ```python main.py --url https://httpbin.org --depth 1 --output my_first_graph.png```
 3) Check the results:
-   `🖼️ my_first_graph.png` - Visual graph
-   `📄 httpbin_org_graph.json` - Raw data
+  - `🖼️ my_first_graph.png` - Visual graph
+  
+  - `📄 httpbin_org_graph.json` - Raw data
