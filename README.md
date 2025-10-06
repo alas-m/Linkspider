@@ -51,10 +51,20 @@ pip install requests beautifulsoup4 networkx matplotlib lxml
 `python main.py --url https://example.com --depth 4 --output deep_graph.png\`
 
 # ⚙️ Parameters
-```--url: Starting URL (required)
+```
+--url: Starting URL (required)
 
 --depth: Crawl depth (1-5, default: 2)
 
 --output: Output PNG filename (default: graph.png)
 ```
 
+# ⚡ Quick Start
+1) Install dependencies:
+   ```pip install requests beautifulsoup4 networkx matplotlib lxml```
+2) Run your first crawl:
+   ```python main.py --url https://httpbin.org --depth 1 --output my_first_graph.png```
+3) Check the results:
+   `🖼️ my_first_graph.png` - Visual graph
+
+   `📄 httpbin_org_graph.json` - Raw data
