@@ -34,8 +34,7 @@ pip install requests beautifulsoup4 networkx matplotlib lxml
 ├── spider/
 │   ├── crawler.py         # Website crawling logic
 │   ├── parser.py          # HTML link extraction
-│   ├── visualizer.py      # Graph visualization
-│   └── __init__.py
+│   └── visualizer.py      # Graph visualization
 ├── utils/
 │   └── url_utils.py       URL normalization utilities
 └── README.md
